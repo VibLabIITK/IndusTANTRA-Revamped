@@ -1,4 +1,4 @@
-import image from '../utilities/images/home_image.jpeg';
+import image from '../utilities/images/tech_image.jpg';
 
 export const Technology = () => {
     return (
@@ -6,7 +6,7 @@ export const Technology = () => {
             <h1>Cyber-Physical Domain</h1>
             <h3>Technologies</h3>
             <div className="content">
-                <img src={image} alt="Home Image" className="image" />
+                <img src={image} alt="Technology Domains Image" className="image" />
                 <ul>
                     <li>Monitor, Manage and Control capabilities for CNC/Robotic Machines </li>
                     <li>Manual Machines monitoring using indigenously built add-on hardware </li>
