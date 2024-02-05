@@ -1,9 +1,18 @@
+import image from '../utilities/images/digital_twin_image.png';
+
 export const DigitalTwin = () => {
     return (
         <div className="page">
-            <h1 className="header">Digital Twin</h1>
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+            <h1>Data Based and Simulation Based Digital Models for -</h1>
+            <h3>Shop Floor Digital Twin</h3>
+            <div className="content">
+                <img src={image} alt="Digital Twin" />
+                <ul>
+                    <li>Products</li>
+                    <li>Production and Processes</li>
+                    <li>Performance and Health</li>
+                </ul>
+            </div>
+        </div >
     );
 };

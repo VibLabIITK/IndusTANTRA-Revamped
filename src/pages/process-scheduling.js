@@ -1,9 +1,19 @@
+import image from '../utilities/images/process_scheduling_image.png';
+
 export const ProcessScheduling = () => {
     return (
         <div className="page">
-            <h1 className="header">Process Scheduling</h1>
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+            <h1>Manufacturing Process Scheduling</h1>
+            <h3>Novel Code</h3>
+            <div className="content">
+                <img src={image} alt="Process Scheduling" />
+                <ul>
+                    <li>Input: Products, Machines, HR, Priorities, Timelines</li>
+                    <li>Output: Gantt Chart, Machine Loading Chart, Make-Buy Decisions</li>
+                    <li>Existing ERP Integration Flexibility</li>
+                    <li>Customised Analytics</li>
+                </ul>
+            </div>
+        </div >
     );
 };

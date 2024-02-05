@@ -1,9 +1,21 @@
+import image from '../utilities/images/otit_image.png';
+
 export const OTITBridge = () => {
     return (
         <div className="page">
-            <h1 className="header">OT-IT Bridge</h1>
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+            <h1>Plaform bridging Operational & Information Technologies</h1>
+            <h3>Synergising OT-IT</h3>
+            <div className="content">
+                <img src={image} alt="OT IT Bridge" />
+                <ul>
+                    <li>Ubiquitous Integration</li>
+                    <li>Industrial Controllors</li>
+                    <li>Industrial Networks</li>
+                    <li>Embedded Systems</li>
+                    <li>Cameras, Scanners</li>
+                    <li>Computor Technology</li>
+                </ul>
+            </div>
+        </div >
     );
 };
