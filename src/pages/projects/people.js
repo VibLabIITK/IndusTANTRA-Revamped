@@ -1,4 +1,4 @@
-import image from '../utilities/images/nalinaksh_vyas_image.png';
+import image from '../../utilities/images/nalinaksh_vyas_image.png';
 
 export const People = () => {
     return (
