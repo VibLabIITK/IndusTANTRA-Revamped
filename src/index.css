@@ -15,44 +15,65 @@ body {
   justify-content: space-between;
   padding: 1% 5%;
   line-height: 50%;
-  width: 100%;
+  /* width: 100vw; */
 }
 
 .head-name {
   display: flex;
 }
 
+.head h1 {
+  font-size: 4vb;
+}
+
 .head h3 {
+  font-size: 3vb;
+  line-height: 100%;
   color: rgb(224, 224, 0);
 }
 
 .head h4 {
+  font-size: 2vb;
+  line-height: 100%;
   color: rgb(118, 197, 0);
 }
 
 /* ========== Sidebar ========== */
 
 .sidebar-header {
-  font-size: 25px;
+  font-size: 2vb;
   color: #165a72;
 }
 
 .menu1 {
+  font-size: 3vb;
   margin-bottom: 40px;
   margin-top: 20px;
+}
+
+.container {
+  transition: transform 0.3s ease;
+}
+
+.translated {
+  transform: translateX(-30vb);
 }
 
 /* ========== Pages ========== */
 
 .page {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 2vb;
+  margin-right: 2vb;
 }
 
 .page h1 {
   color: #165a72;
   margin: 50px auto 0px auto;
-  font-size: 35px;
+  font-size: 3vb;
+}
+
+.page h3 {
+  font-size: 2.5vb;
 }
 
 .content {
@@ -66,10 +87,18 @@ body {
   margin-right: 10px;
 }
 
+.content ul {
+  font-size: 2vb;
+}
+
 .page p {
-  font-size: 20px;
+  font-size: 1.8vb;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.page h5 {
+  font-size: 1.5vb;
 }
 
 /* ========== People ========== */
@@ -87,14 +116,14 @@ body {
 /* ========== Projects ========== */
 
 .projects h3 {
-  font-size: 26px;
+  font-size: 2vb;
   text-align: justify;
   text-justify: inter-word;
   margin-bottom: -10px;
 }
 
 .projects p {
-  font-size: 20px;
+  font-size: 1.5vb;
   text-align: justify;
   text-justify: inter-word;
 }
