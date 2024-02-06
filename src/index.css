@@ -11,6 +11,7 @@ body {
 /* ========== Header ========== */
 
 .head {
+  margin-bottom: -50px;
   justify-content: space-between;
   padding: 1% 5%;
   line-height: 50%;
@@ -44,13 +45,14 @@ body {
 /* ========== Pages ========== */
 
 .page {
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .page h1 {
   color: #165a72;
-  margin: 50px auto;
-  font-size: 40px;
+  margin: 50px auto 0px auto;
+  font-size: 35px;
 }
 
 .content {
@@ -84,19 +86,41 @@ body {
 
 /* ========== Projects ========== */
 
-.projects {
-  line-height: 50%;
-}
-
 .projects h3 {
   font-size: 26px;
   text-align: justify;
   text-justify: inter-word;
-  margin-top: 50px;
+  margin-bottom: -10px;
 }
 
 .projects p {
   font-size: 20px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+/* ========== Research ========== */
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  padding: 10px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-link:hover {
+  background-color: #555;
 }

@@ -11,9 +11,9 @@ export const Stack = () => {
                     <li>Indigenous</li>
                     <li>Modular</li>
                     <li>Plug and Play</li>
-                    <li> Scalable</li >
-                    <li> Cloud based</li >
-                    <li> Custom Analytics</li >
+                    <li>Scalable</li >
+                    <li>Cloud based</li >
+                    <li>Custom Analytics</li >
                 </ul >
             </div >
         </div >

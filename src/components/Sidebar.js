@@ -19,6 +19,7 @@ import ScienceIcon from '@mui/icons-material/Science';
 import WavesIcon from '@mui/icons-material/Waves';
 import LogoutRoundedIcon from "@mui/icons-material/LogoutRounded";
 import PhoneIcon from '@mui/icons-material/Phone';
+import DescriptionIcon from '@mui/icons-material/Description';
 import { Routes, Route, Link } from "react-router-dom";
 import { useState, React, useEffect } from 'react';
 import { Contact } from '../pages/contact';
@@ -76,6 +77,18 @@ export default function MySidebar() {
                     </MenuItem>
                     <MenuItem component={<Link to="research" className="link" />} icon={<ScienceIcon />}>
                         Research
+                    </MenuItem>
+                    <MenuItem component={<Link to="phd" className="link" />} icon={<DescriptionIcon />}>
+                        Ph.D. Thesis
+                    </MenuItem>
+                    <MenuItem component={<Link to="mtech" className="link" />} icon={<DescriptionIcon />}>
+                        M.Tech. Thesis
+                    </MenuItem>
+                    <MenuItem component={<Link to="details" className="link" />} icon={<DescriptionIcon />}>
+                        Research Details
+                    </MenuItem>
+                    <MenuItem component={<Link to="publications" className="link" />} icon={<DescriptionIcon />}>
+                        Research Publications
                     </MenuItem>
                     <MenuItem component={<Link to="news" className="link" />} icon={<NewspaperIcon />}>
                         News

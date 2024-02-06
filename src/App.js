@@ -17,6 +17,10 @@ import { Teaching } from "./pages/projects/teaching";
 import { Research } from "./pages/projects/research";
 import { News } from "./pages/projects/news";
 import { Contact } from "./pages/contact";
+import { PhD } from "./pages/research/phd";
+import { MTech } from "./pages/research/mtech";
+import { Details } from "./pages/research/details";
+import { Publications } from "./pages/research/publications";
 
 const App = () => {
   return (
@@ -44,6 +48,10 @@ const App = () => {
           <Route path="research" element={<Research />} />
           <Route path="news" element={<News />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="phd" element={<PhD />} />
+          <Route path="mtech" element={<MTech />} />
+          <Route path="details" element={<Details />} />
+          <Route path="publications" element={<Publications />} />
         </Routes>
       </section>
     </div >

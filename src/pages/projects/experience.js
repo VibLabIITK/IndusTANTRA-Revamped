@@ -9,14 +9,17 @@ export const Experience = () => {
                 Dept.Genie Mechanique Developpement, INSA de Lyon, France
             </p>
             <h3>Indo US Fellow</h3>
-            <p>Dept of Mechanical Engg, Virginia Tech, Blacksburg, Virginia, USA</p>
+            <p>Dept of Mechanical Engg<br />
+                Virginia Tech, Blacksburg, Virginia, USA</p>
             <h3>Senior Scientific Officer</h3>
             <p>
-                Department of Mechanical Engineering, Indian Institute of Technology New Delhi
+                Department of Mechanical Engineering  <br />
+                Indian Institute of Technology New Delhi <br />
                 Feb 1986 - Dec 1987
             </p>
             <h3>Project Specialist</h3>
-            <p>TATA 500 MW Expansion Project, TATA Thermal Power Station, Bombay<br />
+            <p>TATA 500 MW Expansion Project <br />
+                TATA Thermal Power Station, Bombay<br />
                 Jan 1981 - July 1981</p>
             <h3>Apprentice Engineer</h3>
             <p>Godrej & Boyce Manufacturing Company Pvt Ltd, Bombay<br />
