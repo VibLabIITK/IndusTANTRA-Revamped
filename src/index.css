@@ -8,6 +8,29 @@ body {
   font-size: 24px;
 }
 
+/* ========== Header ========== */
+
+.head {
+  justify-content: space-between;
+  padding: 1% 5%;
+  line-height: 50%;
+  width: 100%;
+}
+
+.head-name {
+  display: flex;
+}
+
+.head h3 {
+  color: rgb(224, 224, 0);
+}
+
+.head h4 {
+  color: rgb(118, 197, 0);
+}
+
+/* ========== Sidebar ========== */
+
 .sidebar-header {
   font-size: 25px;
   color: #165a72;
@@ -17,6 +40,8 @@ body {
   margin-bottom: 40px;
   margin-top: 20px;
 }
+
+/* ========== Pages ========== */
 
 .page {
   margin: 50px;
@@ -34,7 +59,44 @@ body {
 }
 
 .content img {
-  width: 50vb;
+  width: 40%;
   height: auto;
   margin-right: 10px;
+}
+
+.page p {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* ========== People ========== */
+
+.people {
+  margin-right: 20px;
+}
+
+.people img {
+  width: 20vb;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* ========== Projects ========== */
+
+.projects {
+  line-height: 50%;
+}
+
+.projects h3 {
+  font-size: 26px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 50px;
+}
+
+.projects p {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }

@@ -25,36 +25,10 @@ import { Contact } from '../pages/contact';
 import { Phone } from '@mui/icons-material';
 
 export default function MySidebar() {
-    const [collapsed, setCollapsed] = useState(false);
-    const handleToggleSidebar = () => {
-        setCollapsed(!collapsed);
-    };
-
-    // const [width, setWidth] = useState("");
-
-    // function getSize() {
-    //     setWidth(window.innerWidth)
-    // }
-
-    // useEffect(() => {
-    //     window.addEventListener('resize', getSize);
-    //     if (width < 400) {
-    //         setCollapsed(true);
-    //     }
-    //     else {
-    //         setCollapsed(false);
-    //     }
-    //     return () => {
-    //         window.removeEventListener('resize', getSize)
-    //     }
-    // }, [window.innerWidth])
-
     return (
-        <Sidebar className="sidebar" style={{ background: "#a8d5e5", height: "100vh", width: "30vb" }} collapsed={collapsed}>
+        <Sidebar className="sidebar" style={{ background: "#a8d5e5", height: "100vh", width: "30vb" }}>
             <Menu>
                 <MenuItem
-                    // component={<Link to="/" className="link" />}
-                    onClick={handleToggleSidebar}
                     className="menu1"
                     icon={<MenuRoundedIcon />}
                 >

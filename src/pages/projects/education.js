@@ -2,8 +2,12 @@ export const Education = () => {
     return (
         <div className="page">
             <h1 className="header">Education</h1>
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+            <h3>Ph.D</h3>
+            <p>Indian Institute of Technology Delhi,1986</p>
+            <h3>M.Tech</h3>
+            <p>Indian Institute of Technology Delhi, 1983</p >
+            <h3>B.Tech</h3>
+            <p>Indian Institute of Technology Bombay,1980</p>
+        </div >
     );
 };

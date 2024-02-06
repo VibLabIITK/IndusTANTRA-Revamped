@@ -1,9 +1,18 @@
 export const Contact = () => {
     return (
         <div className="page">
-            <h1>Contact</h1>
-            <h3>Heading</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+            <h1>Integration, Monitoring and Analytics of Large Systems & Processes</h1>
+            <div>
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>Nalinaksh Vyas<br />
+                        vyas.nalinaksh@gmail.com<br />
+                        +91 9956292801<br />
+                        NL-103, MED<br />
+                        IIT Kanpur, IN-208016
+                    </p>
+                </div>
+            </div>
+        </div >
     );
 };

@@ -1,4 +1,5 @@
 import MySidebar from "./components/Sidebar";
+import Header from "./components/Head";
 import { Routes, Route, Link } from "react-router-dom";
 import { Home } from "./pages/home";
 import { Technology } from "./pages/technology";
@@ -24,6 +25,7 @@ const App = () => {
         <MySidebar />
       </section>
       <section>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="home" element={<Home />} />
