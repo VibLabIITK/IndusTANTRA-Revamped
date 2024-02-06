@@ -62,8 +62,8 @@ body {
 /* ========== Pages ========== */
 
 .page {
-  margin-left: 2vb;
-  margin-right: 2vb;
+  margin-left: 5vb;
+  margin-right: -25vb;
 }
 
 .page h1 {

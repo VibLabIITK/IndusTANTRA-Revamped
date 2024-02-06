@@ -134,11 +134,11 @@ const App = () => {
       <section>
         <Button
           variant="contained"
-          color="primary"
+          style={{ width: "20vb", height: "5vh", fontSize: "1.3vb", color: "#165a72", background: "#a8d5e5" }}
           onClick={toggleTranslation}
           startIcon={<MenuRoundedIcon>add_circle</MenuRoundedIcon>} // Change 'add_circle' to the icon you want
         >
-          Add
+          <strong>Show/Hide</strong>
         </Button>
         <Header />
         <Routes>
