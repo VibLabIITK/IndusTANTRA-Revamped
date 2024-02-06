@@ -57,7 +57,7 @@ const App = () => {
         <Sidebar style={{ background: "#a8d5e5", height: "100vh", width: "30vb" }}>
           <Menu className="sidebar-header">
             <MenuItem
-              icon={<MenuRoundedIcon />}
+              component={<Link to="home" className="link" />}
               className="menu1"
               style={{ textAlign: "center" }}
             >
