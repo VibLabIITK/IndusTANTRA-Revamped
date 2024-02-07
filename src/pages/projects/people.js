@@ -3,6 +3,13 @@ import image from '../../utilities/images/nalinaksh_vyas_image.png';
 export const People = () => {
     return (
         <div className="page">
+            <div className='navbar'>
+                <a href="people"><h3>People</h3></a>
+                <a href="education"><h3>Education</h3></a>
+                <a href="experience"><h3>Experience</h3></a>
+                <a href="teaching"><h3>Teaching</h3></a>
+                <a href="research"><h3>Research</h3></a>
+            </div>
             <h1>Personal Profile</h1>
             <div className="content">
                 <div className="people">

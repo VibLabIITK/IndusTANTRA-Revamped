@@ -54,8 +54,8 @@ const App = () => {
   return (
     <div id="app" className={`container ${translated ? 'translated' : ''}`} style={({ height: "100vh" }, { display: "flex" })}>
       <section>
-        <Sidebar style={{ background: "#a8d5e5", height: "100vh", width: "30vb" }}>
-          <Menu className="sidebar-header">
+        <Sidebar style={{ background: "white", height: "100vh", width: "30vb" }}>
+          <Menu className="sidebar-header" >
             <MenuItem
               component={<Link to="home" className="link" />}
               className="menu1"
@@ -94,30 +94,6 @@ const App = () => {
               <MenuItem component={<Link to="people" className="link" />} icon={<PeopleIcon />}>
                 People
               </MenuItem>
-              <MenuItem component={<Link to="education" className="link" />} icon={<SchoolIcon />}>
-                Education
-              </MenuItem>
-              <MenuItem component={<Link to="experience" className="link" />} icon={<HomeRepairServiceIcon />}>
-                Experience
-              </MenuItem>
-              <MenuItem component={<Link to="teaching" className="link" />} icon={<CoPresentIcon />}>
-                Teaching
-              </MenuItem>
-              <MenuItem component={<Link to="research" className="link" />} icon={<ScienceIcon />}>
-                Research
-              </MenuItem>
-              <MenuItem component={<Link to="phd" className="link" />} icon={<DescriptionIcon />}>
-                Ph.D. Thesis
-              </MenuItem>
-              <MenuItem component={<Link to="mtech" className="link" />} icon={<DescriptionIcon />}>
-                M.Tech. Thesis
-              </MenuItem>
-              <MenuItem component={<Link to="details" className="link" />} icon={<DescriptionIcon />}>
-                Research Details
-              </MenuItem>
-              <MenuItem component={<Link to="publications" className="link" />} icon={<DescriptionIcon />}>
-                Research Publications
-              </MenuItem>
               <MenuItem component={<Link to="news" className="link" />} icon={<NewspaperIcon />}>
                 News
               </MenuItem>
@@ -134,7 +110,7 @@ const App = () => {
       <section>
         <Button
           variant="contained"
-          style={{ width: "20vb", height: "5vh", fontSize: "1.3vb", color: "#165a72", background: "#a8d5e5" }}
+          style={{ width: "20vb", height: "5vh", fontSize: "1.3vb", color: "white", background: "#161b21" }}
           onClick={toggleTranslation}
           startIcon={<MenuRoundedIcon>add_circle</MenuRoundedIcon>} // Change 'add_circle' to the icon you want
         >

@@ -4,9 +4,9 @@ export const Contact = () => {
             <h1>Integration, Monitoring and Analytics of Large Systems & Processes</h1>
             <div>
                 <div>
-                    <h2>Contact Us</h2>
+                    <h3>Contact Us</h3>
                     <p>Nalinaksh Vyas<br />
-                        vyas.nalinaksh@gmail.com<br />
+                        <a href="mailto:vyas@iitk.ac.in">vyas.nalinaksh@gmail.com</a><br />
                         +91 9956292801<br />
                         NL-103, MED<br />
                         IIT Kanpur, IN-208016

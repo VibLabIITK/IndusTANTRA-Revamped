@@ -3,6 +3,13 @@ import { Routes, Route, Link } from "react-router-dom";
 export const Research = () => {
     return (
         <div className="page">
+            <div className='navbar'>
+                <a href="people"><h3>People</h3></a>
+                <a href="education"><h3>Education</h3></a>
+                <a href="experience"><h3>Experience</h3></a>
+                <a href="teaching"><h3>Teaching</h3></a>
+                <a href="research"><h3>Research</h3></a>
+            </div>
             <h1 className="header">Research</h1>
             <h3>Research Interests</h3>
             <p>Machine Dynamics<br />
@@ -13,11 +20,11 @@ export const Research = () => {
             <h3>Thesis Supervision</h3>
             <p>
                 <ul>
-                    <li>Ph.D. Thesis Titles</li>
-                    <li>M.Tech. Thesis Titles</li>
+                    <li><a href="phd">Ph.D. Thesis Titles</a></li>
+                    <li><a href="mtech">M.Tech. Thesis Titles</a></li>
                 </ul>
-                Research Details<br /><br />
-                Recent Publications
+                <a href="details">Research Details</a><br /><br />
+                <a href="publications">Recent Publications</a>
             </p>
         </div >
     );

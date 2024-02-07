@@ -1,6 +1,13 @@
 export const Publications = () => {
     return (
         <div className="page">
+            <div className='navbar'>
+                <a href="people"><h3>People</h3></a>
+                <a href="education"><h3>Education</h3></a>
+                <a href="experience"><h3>Experience</h3></a>
+                <a href="teaching"><h3>Teaching</h3></a>
+                <a href="research"><h3>Research</h3></a>
+            </div>
             <h1>Research Publications</h1>
             <div className="projects">
                 <h3>Convergence Analysis of Volterra Series response of Nonlinear Systems subjected to Harmonic Excitation, Journal of Sound and Vibration, Vol. 236(2), pp. 339-358, 2000.</h3>
